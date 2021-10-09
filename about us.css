@@ -1,0 +1,571 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Marcellus SC', serif;
+
+}
+.banner
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(image/photozone-img24.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.img1{
+    width: 160px;
+    position: relative;
+    top: 35px;
+    right: 350px;
+ }
+ .navbar a
+ {
+     color: rgb(125, 224, 224);
+     font-size: 22px;
+     position: relative;
+     top: 25px;
+    right: 350px;
+ }
+
+ .shadow
+ {
+     width: 100%;
+     height: 200px;
+     position: relative;
+     background: transparent;
+     z-index: 1;
+     top: -180px;
+     background-image: linear-gradient(180deg, #33AAC000 0%,#0e262b 49%);
+ }
+ .about
+ {
+     background:#0e262b ;
+     width: 100%;
+     height: 100vh;
+     position: relative;
+     top: -180px;
+    
+  
+    
+ }
+ .png
+{
+    background-image:url(image/bosa-photography-img3.png);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+.parent1
+{
+position: relative;
+color: white;
+text-align: center;
+font-size: 20px;
+
+}
+.con1
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.progress
+{
+    position: relative;
+    left: 80px;
+
+}
+.pro
+{
+    position: relative;
+    color: rgb(184, 204, 218);
+    top: 30px;
+    left: 50px;
+}
+.con{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+}
+.banner1
+{
+    background-color: #0e262b;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -190px;
+
+}
+.a1
+{
+    width: 400px;
+    height: 350px;
+    background-color:#0b262b;
+    text-align: left;
+    color: white;
+}
+.a
+{
+    width: 300px;
+    height: 350px;
+    background-color:#0e262b;
+    text-align: center;
+    color: white;
+}
+.a
+{
+    width: 300px;
+    height: 350px;
+    background-color:#0e262b;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+
+}
+.a::after
+{
+    position:absolute;
+    content: "";
+    width: 85px;
+    height: 85px;
+    background-color: rgb(35, 78, 82);
+    top: 0px;
+    right: 280px;
+    border-radius: 50%;
+}
+.bo{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+.attach
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(image/photozone-img22.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -190px;
+    background-attachment: fixed;
+}
+.a1 button{
+    width: 150px; 
+    padding: 10px 10px; 
+    background-color: #0e262b ;
+    border: none;
+    color: white;
+    transition: 0.5s;
+   
+}
+.a1 button:hover
+{
+    background-color: #0DA2FF;
+}
+.con9
+{
+ position: relative;
+ top:130px;
+ text-align: center;
+ color: white;
+}
+.co
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-height:80vh;
+    color: white;
+}
+.co h3{
+    font-size: 25px;
+    color: white;
+}
+.box{
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    background-image: linear-gradient(rgba(20, 63, 65, 0.6),rgba(19, 68, 77, 0.8));
+  padding-top: 40px;
+
+}
+.counter
+{
+    font-size: 30px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 500px;
+    background-color:#19353a ;
+    position: relative;
+    top: -194px;
+
+ 
+}
+.io1
+{
+    position: absolute;
+    z-index: 1;
+left: -40px;
+top: 20px;
+}
+.con10
+{
+ position: relative;
+ top:130px;
+ text-align: left;
+ color: white;
+}
+.form1
+{
+    position: relative;
+    top: 150px;
+    background: transparent;
+}
+.f1{
+    background: transparent;
+    width: 500px;
+    height: 50px;
+    border-top: 2px solid rgb(89, 89, 92);
+    border-left: 2px solid rgb(89, 89, 92);
+    padding-left: 20px;
+
+}
+.f2{
+    background: transparent;
+    width: 500px;
+    height: 200px;
+    border-top: 2px solid rgb(89, 89, 92);
+    border-left: 2px solid rgb(89, 89, 92);
+    padding-left: 20px;
+    
+
+}
+.f3{
+    background: white;
+    width: 230px;
+    height:60px;
+    border-top: 2px solid rgb(89, 89, 92);
+    border-left: 2px solid rgb(89, 89, 92);
+    font-size: 15px;
+
+}
+.f3:hover
+{
+    background-color:#0DA2FF ;
+    color: white;
+}
+.four
+{
+display: grid;
+grid-template-columns: auto auto auto ;
+    position: relative;
+    top: -500px;
+    left: 450px;
+    text-align: center;
+    opacity: 0.7;
+}
+.four1
+{
+    width: 250px;
+    height: 250px;
+   background: #113238;
+   color: white;
+  
+}
+.fc1
+{
+   position: relative;
+   top: 120px;
+   text-align: left;
+   left: 30px;
+}
+.four::before
+{
+    content: "";
+    position: absolute;
+    width: 0.1px;
+    height: 440px;
+    left: 440px;
+    background-color: rgb(28, 90, 85);
+    z-index: 1;
+    top: 35px;
+  
+}
+.four::after
+{
+    content: "";
+    position: absolute;
+    width: 0.1px;
+    height: 440px;
+    left: 440px;
+    background-color: rgb(28, 90, 85);
+    z-index: 1;
+    top: 35px;
+    transform: rotate(90deg);
+  
+}
+.fo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height:65vh;
+  
+}
+.fo1{
+    width: 370px;
+    height: 400px;
+   
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: white;
+   position: relative;
+   left: -30px;
+  
+}
+.fo::after
+{
+    content: "";
+    position: relative;
+    width: 0.5px;
+    height: 280px;
+    background-color: #2f4e4e;
+    z-index: +1;
+    right: 750px;
+    transform: rotate(180deg);
+    top: 10px;
+}
+.fo::before
+{
+    content: "";
+    position: relative;
+    width: 0.5px;
+    height: 280px;
+    background-color: #395858;
+    z-index: +1;
+    right: -770px;
+    transform: rotate(180deg);
+    top: 10px;
+}
+.fd1
+{
+    position: relative;
+    top: 60px;
+}
+.fm1{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    
+}
+.fm2
+{
+    width: 300px;
+    height: 50px;
+    transition: 0.3s;
+  
+}
+.fm2:hover
+{
+    background-color:#0DA2FF ;
+    color: white;
+}
+.fo2{
+    width: 370px;
+    height: 400px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   color: white;
+   font-weight: lighter;
+   position: relative;
+   left: 20px;
+
+  
+}
+.fd2
+{
+    position: relative;
+    top: 30px;
+    font-weight: lighter;
+}
+.fo3{
+    width: 370px;
+    height: 250px;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   position: relative;
+   top: 30px;
+   left:60px;
+   display: flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+
+ 
+}
+.o1{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(file:///C:/Users/dinesh/Downloads/index/image/photozone-img04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.o2{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(image/photozone-img05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.o3{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(image/photozone-img09.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.o4{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(image/photozone-img014.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+}
+.o5{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(image/photozone-img23.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+}
+.o6{
+  
+    width: 110px;
+    height: 100px;
+    background-color: violet;
+    background-image: url(image/photozone-img07.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+}
+.fo3::before
+{
+    content: "Gallery";
+    position: absolute;
+    top: -60px;
+    font-size: 30px;
+    color: white;
+
+}
+.f5
+{
+    width: 100%;
+    height: 200px;
+    background-color: #0b252b;
+}
+.footercon
+{
+    display: flex;
+    font-size: 15px;
+    color: white;
+    font-weight:lighter;
+    justify-content: left;
+    align-items: center;
+    min-height: 15vh;
+}
+.copy1
+{
+   position: relative;
+   left:  360px;
+   top: 100px;
+}
+.na
+{
+ display: inline-block;
+position: relative;
+right:140px;
+top: 10px;
+
+}
+.na a{
+
+font-size: 25px;
+margin-left: 20px;
+color: white;
+}
+.f{
+    background-color: teal;
+    width: 20px;
+    height: 20px;
+}
+.play
+{
+    position: relative;
+    top: 200px;
+    left: 330px;
+    z-index: 1;
+}
+@keyframes pulse {
+ 0% {
+box-shadow: 0 0 0 3px rgba(34, 104, 211, 0.6);
+  } 
+  40% {
+    box-shadow: 0 0 0 9px rgba(34, 104, 211, 0.6);
+      } 
+      80% {
+        box-shadow: 0 0 0 0px  rgba(34, 104, 211, 0.6);
+          } 
+         100% {
+            box-shadow: 0 0 0 6px rgba(34, 104, 211, 0.6);
+              } 
+  
+    
+}
+.play::before
+{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 83, 206);
+    border-radius: 50%;
+    bottom: -35px;
+    left: -39px;
+    z-index: -1;
+    animation: pulse 1490ms infinite;
+   
+    
+}
+
+
