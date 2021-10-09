@@ -427,7 +427,7 @@ grid-template-columns: auto auto auto ;
     width: 110px;
     height: 100px;
     background-color: violet;
-    background-image: url(file:///C:/Users/dinesh/Downloads/index/image/photozone-img04.jpg);
+   background-image: url(image/photozone-img04.jpg);
     background-position: center;
     background-size: cover;
 }
